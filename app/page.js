@@ -3,7 +3,7 @@
 import { useState } from "react";
 import CodeEditor from "../components/codeEditor";
 import Console from "../components/console";
-import HelpPanel from "../componentshelppanel";
+import HelpPanel from "../components/helppanel";
 import autoFix from "../utils/autofix";
 
 export default function Home() {
@@ -55,3 +55,4 @@ export default function Home() {
     </div>
   );
 }
+
